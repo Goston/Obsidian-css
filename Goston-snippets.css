@@ -1,0 +1,354 @@
+/* Variable define */
+
+.theme-dark .markdown-source-view {
+  --text-faint: #888;
+}
+
+/* Editor and Reading View */
+
+a {
+  color: #00afdb !important;
+}
+
+.theme-dark .markdown-rendered hr {
+  border: solid 0.5px #555 !important;
+}
+
+.theme-light .markdown-rendered hr {
+  border: solid 0.5px #ccc !important;
+}
+
+.theme-dark .markdown-reading-view,
+.theme-dark .markdown-source-view {
+  background: #000 !important;
+}
+
+/* File list */
+
+.nav-file-title {
+  margin-left: 4px !important;
+}
+
+div.nav-file-title::before {
+  content: '-' !important;
+  margin-right: 4px !important;
+}
+
+.theme-dark .nav-file-title.is-active,
+.theme-dark .nav-folder-title.is-active {
+  color: #fff !important;
+  background-color: #424b5b !important;
+}
+
+.theme-light .nav-file-title.is-active,
+.theme-light .nav-folder-title.is-active {
+  color: #fff !important;
+  background-color: #677793 !important;
+}
+
+/* Table */
+
+.markdown-reading-view table {
+  width: 100%;
+}
+
+.markdown-reading-view table th {
+  white-space: nowrap !important;
+  font-size: 1em !important;
+  font-weight: bold !important;
+}
+
+.theme-dark .markdown-reading-view table th {
+  color: #ffffff !important;
+  background: #424b5b !important;
+}
+
+.theme-dark .markdown-reading-view table td,
+.theme-dark .markdown-reading-view table th {
+  border-color: #555 !important;
+}
+
+.theme-dark .markdown-reading-view table tr:nth-child(even) {
+  background-color: #cccccc40 !important;
+}
+
+.theme-dark .markdown-reading-view table tr:hover {
+  background-color: rgba(255, 255, 200, 0.4) !important;
+}
+
+.theme-light .markdown-reading-view table th {
+  color: #fff !important;
+  background: #677793 !important;
+}
+
+.theme-light .markdown-reading-view table td,
+.theme-light .markdown-reading-view table th {
+  border-color: #ccc !important;
+}
+
+.theme-light .markdown-reading-view table tr:nth-child(even) {
+  background-color: #cccccc30 !important;
+}
+
+.theme-light .markdown-reading-view table tr:hover {
+  background-color: rgb(255, 255, 200) !important;
+}
+
+/* Code style */
+
+code, .cm-inline-code, .HyperMD-codeblock {
+  font-size: .9em !important;
+}
+
+.theme-dark .markdown-reading-view code:not([class]),
+.theme-dark .markdown-source-view .cm-inline-code {
+  color: #00beed !important;
+  background-color: #003c4c !important;
+}
+
+.theme-light .markdown-reading-view code:not([class]),
+.theme-light .markdown-source-view .cm-inline-code {
+  color: #0079bb !important;
+  background-color: #bff5ff90 !important;
+}
+
+.markdown-rendered pre code,
+.obsidian-embedded-code-title__code-block-title+code[class*=language-],
+.markdown-source-view.mod-cm6 .cm-line.HyperMD-codeblock,
+.code-block-wrap {
+  font-size: .84em !important;
+}
+
+.markdown-rendered pre .obsidian-embedded-code-title__code-block-title {
+  font-size: .8em !important;
+}
+
+.obsidian-embedded-code-title__code-block-title .langName {
+  line-height: 24px !important;
+}
+
+/* Better Codeblock  */
+
+.obsidian-embedded-code-title__code-block-title {
+  min-height: 1px !important;
+  height: 30px !important;
+  line-height: 24px !important;
+}
+
+.theme-dark .obsidian-embedded-code-title__code-block-title {
+  color: #ffffff !important;
+}
+
+.theme-light .obsidian-embedded-code-title__code-block-title {
+  color: #333 !important;
+}
+
+/* -------------------------------------- */
+
+.theme-dark .token.comment,
+.theme-dark .token.prolog,
+.theme-dark .token.doctype,
+.theme-dark .token.cdata {
+  color: #606e87 !important;
+}
+
+.theme-dark .token.punctuation {
+  color: #81a1c1 !important;
+}
+
+.theme-dark .token.property,
+.theme-dark .token.tag,
+.theme-dark .token.boolean,
+.theme-dark .token.number,
+.theme-dark .token.constant,
+.theme-dark .token.symbol,
+.theme-dark .token.deleted {
+  color: #b48ead !important;
+}
+
+.theme-dark .token.selector,
+.theme-dark .token.attr-name,
+.theme-dark .token.string,
+.theme-dark .token.char,
+.theme-dark .token.builtin,
+.theme-dark .token.inserted {
+  color: #a2bf8c !important;
+}
+
+.theme-dark .token.operator,
+.theme-dark .token.entity,
+.theme-dark .token.url,
+.language-css .token.string,
+.style .token.string {
+  color: #80a2c1 !important;
+  background: none;
+}
+
+.theme-dark .token.atrule,
+.theme-dark .token.attr-value,
+.theme-dark .token.keyword {
+  color: #81a1c1 !important;
+}
+
+.theme-dark .token.function {
+  color: #8fbcbc !important;
+}
+
+.theme-dark .token.regex,
+.theme-dark .token.important,
+.theme-dark .token.variable {
+  color: #ee9900 !important;
+}
+
+.theme-dark .token.important,
+.theme-dark .token.bold {
+  font-weight: bold;
+}
+
+.theme-dark .token.italic {
+  font-style: italic;
+}
+
+.theme-dark .token.entity {
+  cursor: help;
+}
+
+/* -------------------------------------- */
+
+.theme-light .token.comment,
+.theme-light .token.prolog,
+.theme-light .token.doctype,
+.theme-light .token.cdata {
+  color: #606e87 !important;
+}
+
+.theme-light .token.punctuation {
+  color: #81a1c1 !important;
+}
+
+.theme-light .token.property,
+.theme-light .token.tag,
+.theme-light .token.boolean,
+.theme-light .token.number,
+.theme-light .token.constant,
+.theme-light .token.symbol,
+.theme-light .token.deleted {
+  color: #b48ead !important;
+}
+
+.theme-light .token.selector,
+.theme-light .token.attr-name,
+.theme-light .token.string,
+.theme-light .token.char,
+.theme-light .token.builtin,
+.theme-light .token.inserted {
+  color: #a2bf8c !important;
+}
+
+.theme-light .token.operator,
+.theme-light .token.entity,
+.theme-light .token.url,
+.language-css .token.string,
+.style .token.string {
+  color: #80a2c1 !important;
+  background: none;
+}
+
+.theme-light .token.atrule,
+.theme-light .token.attr-value,
+.theme-light .token.keyword {
+  color: #81a1c1 !important;
+}
+
+.theme-light .token.function {
+  color: #8fbcbc !important;
+}
+
+.theme-light .token.regex,
+.theme-light .token.important,
+.theme-light .token.variable {
+  color: #ee9900 !important;
+}
+
+.theme-light .token.important,
+.theme-light .token.bold {
+  font-weight: bold;
+}
+
+.theme-light .token.italic {
+  font-style: italic;
+}
+
+.theme-light .token.entity {
+  cursor: help;
+}
+
+/* -------------------------------------- */
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+  color: #606e87 !important;
+}
+
+.token.punctuation {
+  color: #81a1c1 !important;
+}
+
+.token.property,
+.token.tag,
+.token.boolean,
+.token.number,
+.token.constant,
+.token.symbol,
+.token.deleted {
+  color: #b48ead !important;
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+  color: #a2bf8c !important;
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string {
+  color: #80a2c1 !important;
+  background: none;
+}
+
+.token.atrule,
+.token.attr-value,
+.token.keyword {
+  color: #81a1c1 !important;
+}
+
+.token.function {
+  color: #8fbcbc !important;
+}
+
+.token.regex,
+.token.important,
+.token.variable {
+  color: #ee9900 !important;
+}
+
+.token.important,
+.token.bold {
+  font-weight: bold;
+}
+
+.token.italic {
+  font-style: italic;
+}
+
+.token.entity {
+  cursor: help;
+}
