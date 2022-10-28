@@ -145,146 +145,6 @@ code, .cm-inline-code, .HyperMD-codeblock {
 
 /* -------------------------------------- */
 
-.theme-dark .token.comment,
-.theme-dark .token.prolog,
-.theme-dark .token.doctype,
-.theme-dark .token.cdata {
-  color: #606e87 !important;
-}
-
-.theme-dark .token.punctuation {
-  color: #81a1c1 !important;
-}
-
-.theme-dark .token.property,
-.theme-dark .token.tag,
-.theme-dark .token.boolean,
-.theme-dark .token.number,
-.theme-dark .token.constant,
-.theme-dark .token.symbol,
-.theme-dark .token.deleted {
-  color: #b48ead !important;
-}
-
-.theme-dark .token.selector,
-.theme-dark .token.attr-name,
-.theme-dark .token.string,
-.theme-dark .token.char,
-.theme-dark .token.builtin,
-.theme-dark .token.inserted {
-  color: #a2bf8c !important;
-}
-
-.theme-dark .token.operator,
-.theme-dark .token.entity,
-.theme-dark .token.url,
-.language-css .token.string,
-.style .token.string {
-  color: #80a2c1 !important;
-  background: none;
-}
-
-.theme-dark .token.atrule,
-.theme-dark .token.attr-value,
-.theme-dark .token.keyword {
-  color: #81a1c1 !important;
-}
-
-.theme-dark .token.function {
-  color: #8fbcbc !important;
-}
-
-.theme-dark .token.regex,
-.theme-dark .token.important,
-.theme-dark .token.variable {
-  color: #ee9900 !important;
-}
-
-.theme-dark .token.important,
-.theme-dark .token.bold {
-  font-weight: bold;
-}
-
-.theme-dark .token.italic {
-  font-style: italic;
-}
-
-.theme-dark .token.entity {
-  cursor: help;
-}
-
-/* -------------------------------------- */
-
-.theme-light .token.comment,
-.theme-light .token.prolog,
-.theme-light .token.doctype,
-.theme-light .token.cdata {
-  color: #606e87 !important;
-}
-
-.theme-light .token.punctuation {
-  color: #81a1c1 !important;
-}
-
-.theme-light .token.property,
-.theme-light .token.tag,
-.theme-light .token.boolean,
-.theme-light .token.number,
-.theme-light .token.constant,
-.theme-light .token.symbol,
-.theme-light .token.deleted {
-  color: #b48ead !important;
-}
-
-.theme-light .token.selector,
-.theme-light .token.attr-name,
-.theme-light .token.string,
-.theme-light .token.char,
-.theme-light .token.builtin,
-.theme-light .token.inserted {
-  color: #a2bf8c !important;
-}
-
-.theme-light .token.operator,
-.theme-light .token.entity,
-.theme-light .token.url,
-.language-css .token.string,
-.style .token.string {
-  color: #80a2c1 !important;
-  background: none;
-}
-
-.theme-light .token.atrule,
-.theme-light .token.attr-value,
-.theme-light .token.keyword {
-  color: #81a1c1 !important;
-}
-
-.theme-light .token.function {
-  color: #8fbcbc !important;
-}
-
-.theme-light .token.regex,
-.theme-light .token.important,
-.theme-light .token.variable {
-  color: #ee9900 !important;
-}
-
-.theme-light .token.important,
-.theme-light .token.bold {
-  font-weight: bold;
-}
-
-.theme-light .token.italic {
-  font-style: italic;
-}
-
-.theme-light .token.entity {
-  cursor: help;
-}
-
-/* -------------------------------------- */
-
 .token.comment,
 .token.prolog,
 .token.doctype,
@@ -342,13 +202,13 @@ code, .cm-inline-code, .HyperMD-codeblock {
 
 .token.important,
 .token.bold {
-  font-weight: bold;
+  font-weight: bold !important;
 }
 
 .token.italic {
-  font-style: italic;
+  font-style: italic !important;
 }
 
 .token.entity {
-  cursor: help;
+  cursor: help !important;
 }
