@@ -23,6 +23,26 @@ a {
   background: #000 !important;
 }
 
+/* Editor current line background color */
+
+.theme-dark div.cm-active {
+  background-color: #66779360 !important;
+}
+
+.theme-light div.cm-active {
+  background-color: #66779340 !important;
+}
+
+/* Editor current gutter line font color */
+
+.theme-dark div.cm-gutterElement.cm-active {
+  color: #fff !important;
+}
+
+.theme-light div.cm-gutterElement.cm-active {
+  color: #000 !important;
+}
+
 /* File list */
 
 .nav-file-title {
