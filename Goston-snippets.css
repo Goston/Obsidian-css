@@ -116,6 +116,10 @@ div.nav-file-title::before {
 
 /* Code style */
 
+.cm-hmd-frontmatter, .frontmatter-container {
+  font-size: .75em !important;
+}
+
 code, .cm-inline-code, .HyperMD-codeblock {
   font-size: .9em !important;
 }
