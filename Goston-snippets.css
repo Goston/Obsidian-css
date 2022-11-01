@@ -132,8 +132,8 @@ code, .cm-inline-code, .HyperMD-codeblock {
 
 .theme-light .markdown-reading-view code:not([class]),
 .theme-light .markdown-source-view .cm-inline-code {
-  color: #0079bb !important;
-  background-color: #bff5ff90 !important;
+  color: #0190dc !important;
+  background-color: #ddfaff !important;
 }
 
 .markdown-rendered pre code,
