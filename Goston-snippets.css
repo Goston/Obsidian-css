@@ -7,7 +7,7 @@
 /* Editor and Reading View */
 
 a {
-  color: #00afdb !important;
+  color: #00aaff !important;
 }
 
 .theme-dark .markdown-rendered hr {
@@ -126,8 +126,8 @@ code, .cm-inline-code, .HyperMD-codeblock {
 
 .theme-dark .markdown-reading-view code:not([class]),
 .theme-dark .markdown-source-view .cm-inline-code {
-  color: #00beed !important;
-  background-color: #003c4c !important;
+  color: #5fc2f4 !important;
+  background-color: #003b59 !important;
 }
 
 .theme-light .markdown-reading-view code:not([class]),
