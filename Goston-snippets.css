@@ -156,18 +156,6 @@ code, .cm-inline-code, .HyperMD-codeblock {
   font-size: .9em !important;
 }
 
-.theme-dark .markdown-rendered code:not([class]),
-.theme-dark .markdown-source-view .cm-inline-code {
-  color: #5fc2f4 !important;
-  background-color: #003b59 !important;
-}
-
-.theme-light .markdown-rendered code:not([class]),
-.theme-light .markdown-source-view .cm-inline-code {
-  color: #0190dc !important;
-  background-color: #ddfaff !important;
-}
-
 .markdown-rendered pre code,
 .obsidian-embedded-code-title__code-block-title+code[class*=language-],
 .markdown-source-view.mod-cm6 .cm-line.HyperMD-codeblock,
@@ -181,6 +169,22 @@ code, .cm-inline-code, .HyperMD-codeblock {
 
 .obsidian-embedded-code-title__code-block-title .langName {
   line-height: 24px !important;
+}
+
+.theme-dark .markdown-rendered code:not([class]),
+.theme-dark .markdown-source-view .cm-inline-code {
+  color: #5fc2f4 !important;
+  background-color: #003b59 !important;
+}
+
+.theme-light .markdown-rendered code {
+  color: #777 !important;
+}
+
+.theme-light .markdown-rendered code:not([class]),
+.theme-light .markdown-source-view .cm-inline-code {
+  color: #0190dc !important;
+  background-color: #ddfaff !important;
 }
 
 /* Better Codeblock  */
