@@ -6,13 +6,20 @@
   --text-muted: #888;
   --heading-formatting: #888;
   --list-marker-color: #888;
+  /* --link-external-color: #D08770; */
+  --link-external-color: #e48264;
+  --text-a-color: #00aaff;
+  /* --text-a-hover-color: #81a1c1; */
+  --text-a-hover-color: #588fc6;
+}
+
+.theme-light .markdown-source-view, .theme-light .markdown-rendered {
+  --link-external-color: #f14e1c;
+  --text-a-color: #00aaff;
+  --text-a-hover-color: #1374d5;
 }
 
 /* Editor and Reading View */
-
-a {
-  color: #00aaff !important;
-}
 
 .theme-dark .markdown-source-view hr,
 .theme-dark .markdown-rendered hr {
@@ -71,6 +78,20 @@ div.nav-file-title::before {
 .theme-light .nav-folder-title.is-active {
   color: #fff !important;
   background-color: #677793 !important;
+}
+
+/* Link */
+
+a {
+  color: var(--text-a-color) !important;
+}
+
+a:hover, .cm-hmd-internal-link:hover, .cm-url {
+  color: var(--text-a-hover-color) !important;
+}
+
+.cm-url:hover {
+  color: var(--text-a-color) !important;
 }
 
 /* Table */
