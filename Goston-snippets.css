@@ -1,10 +1,10 @@
 /* Variable define */
 
 .theme-dark .markdown-source-view {
-  --text-faint: #888 !important;
-  --text-muted: #888 !important;
-  --heading-formatting: #888 !important;
-  --list-marker-color: #888 !important;
+  --text-faint: #888;
+  --text-muted: #888;
+  --heading-formatting: #888;
+  --list-marker-color: #888;
 }
 
 /* Editor and Reading View */
