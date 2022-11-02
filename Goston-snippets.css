@@ -1,7 +1,10 @@
 /* Variable define */
 
 .theme-dark .markdown-source-view {
-  --text-faint: #888;
+  --text-faint: #888 !important;
+  --text-muted: #888 !important;
+  --heading-formatting: #888 !important;
+  --list-marker-color: #888 !important;
 }
 
 /* Editor and Reading View */
@@ -10,16 +13,18 @@ a {
   color: #00aaff !important;
 }
 
+.theme-dark .markdown-source-view hr,
 .theme-dark .markdown-rendered hr {
   border: solid 0.5px #555 !important;
 }
 
+.theme-light .markdown-source-view hr,
 .theme-light .markdown-rendered hr {
   border: solid 0.5px #ccc !important;
 }
 
-.theme-dark .markdown-reading-view,
-.theme-dark .markdown-source-view {
+.theme-dark .markdown-source-view,
+.theme-dark .markdown-rendered {
   background: #000 !important;
 }
 
@@ -68,49 +73,53 @@ div.nav-file-title::before {
 
 /* Table */
 
-.markdown-reading-view table {
+.cm-s-obsidian .HyperMD-table-row-0 {
+  color: var(--text-normal) !important;
+}
+
+.markdown-rendered table {
   width: 100%;
 }
 
-.markdown-reading-view table th {
+.markdown-rendered table th {
   white-space: nowrap !important;
   font-size: 1em !important;
   font-weight: bold !important;
 }
 
-.theme-dark .markdown-reading-view table th {
+.theme-dark .markdown-rendered table th {
   color: #ffffff !important;
   background: #424b5b !important;
 }
 
-.theme-dark .markdown-reading-view table td,
-.theme-dark .markdown-reading-view table th {
+.theme-dark .markdown-rendered table td,
+.theme-dark .markdown-rendered table th {
   border-color: #555 !important;
 }
 
-.theme-dark .markdown-reading-view table tr:nth-child(even) {
+.theme-dark .markdown-rendered table tr:nth-child(even) {
   background-color: #cccccc40 !important;
 }
 
-.theme-dark .markdown-reading-view table tr:hover {
+.theme-dark .markdown-rendered table tr:hover {
   background-color: rgba(255, 255, 200, 0.4) !important;
 }
 
-.theme-light .markdown-reading-view table th {
+.theme-light .markdown-rendered table th {
   color: #fff !important;
   background: #677793 !important;
 }
 
-.theme-light .markdown-reading-view table td,
-.theme-light .markdown-reading-view table th {
+.theme-light .markdown-rendered table td,
+.theme-light .markdown-rendered table th {
   border-color: #ccc !important;
 }
 
-.theme-light .markdown-reading-view table tr:nth-child(even) {
+.theme-light .markdown-rendered table tr:nth-child(even) {
   background-color: #cccccc30 !important;
 }
 
-.theme-light .markdown-reading-view table tr:hover {
+.theme-light .markdown-rendered table tr:hover {
   background-color: rgb(255, 255, 200) !important;
 }
 
@@ -124,13 +133,13 @@ code, .cm-inline-code, .HyperMD-codeblock {
   font-size: .9em !important;
 }
 
-.theme-dark .markdown-reading-view code:not([class]),
+.theme-dark .markdown-rendered code:not([class]),
 .theme-dark .markdown-source-view .cm-inline-code {
   color: #5fc2f4 !important;
   background-color: #003b59 !important;
 }
 
-.theme-light .markdown-reading-view code:not([class]),
+.theme-light .markdown-rendered code:not([class]),
 .theme-light .markdown-source-view .cm-inline-code {
   color: #0190dc !important;
   background-color: #ddfaff !important;
