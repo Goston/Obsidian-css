@@ -1,6 +1,7 @@
 /* Variable define */
 
-.theme-dark .markdown-source-view {
+.theme-dark .markdown-source-view, .theme-dark .markdown-rendered {
+  --text-normal: #c7c7c7;
   --text-faint: #888;
   --text-muted: #888;
   --heading-formatting: #888;
@@ -25,6 +26,7 @@ a {
 
 .theme-dark .markdown-source-view,
 .theme-dark .markdown-rendered {
+  color: var(--text-normal) !important;
   background: #000 !important;
 }
 
@@ -169,11 +171,11 @@ code, .cm-inline-code, .HyperMD-codeblock {
 }
 
 .theme-dark .obsidian-embedded-code-title__code-block-title {
-  color: #ffffff !important;
+  color: var(--text-normal) !important;
 }
 
 .theme-light .obsidian-embedded-code-title__code-block-title {
-  color: #333 !important;
+  color: var(--text-normal) !important;
 }
 
 /* -------------------------------------- */
