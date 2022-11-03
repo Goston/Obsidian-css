@@ -11,7 +11,7 @@ My CSS snippets for Obsidian default theme.
 
 ## Screenshots
 
-![Screenshot](https://github.com/Goston/Obsidian-css/blob/master/01.png)
-![Screenshot](https://github.com/Goston/Obsidian-css/blob/master/02.png)
-![Screenshot](https://github.com/Goston/Obsidian-css/blob/master/03.png)
-![Screenshot](https://github.com/Goston/Obsidian-css/blob/master/04.png)
+![Screenshot](01.png)
+![Screenshot](02.png)
+![Screenshot](03.png)
+![Screenshot](04.png)
