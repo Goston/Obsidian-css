@@ -1,0 +1,11 @@
+/* Horizontal line (<hr> tag) color in source view and reading view */
+
+.theme-dark .markdown-source-view hr,
+.theme-dark .markdown-rendered hr {
+  border: solid 0.5px #555 !important;
+}
+
+.theme-light .markdown-source-view hr,
+.theme-light .markdown-rendered hr {
+  border: solid 0.5px #ccc !important;
+}

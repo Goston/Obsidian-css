@@ -4,14 +4,16 @@ My CSS snippets for Obsidian default theme.
 
 ## How to use
 
-1. Download `Goston-snippets.css` or `Goston-snippets.min.css` file 
-2. Copy previous file into Obsidian Library `.obsidian/snippets` folder, and enabled it at Preferences → Appearance settings...
+1. Download `Goston-variable-snippets.css` **AND** other css snippets files (`*.css`) you need
+2. Copy previous download files into Obsidian Snippets folder (default is: `.obsidian/snippets`)
+3. Enabled the css snippets at Preferences → Appearance settings...
 
-> `.min.css` is Minified version of `.css`
+> You must download `Goston-variable-snippets.css` first, because other css snippets file depend on it.
+> Every file has a comment at the top of the file, you can read it to know what it does.
 
 ## Screenshots
 
-![Screenshot](01.png)
-![Screenshot](02.png)
-![Screenshot](03.png)
-![Screenshot](04.png)
+![Screenshot](screenshot/01.png)
+![Screenshot](screenshot/02.png)
+![Screenshot](screenshot/03.png)
+![Screenshot](screenshot/04.png)

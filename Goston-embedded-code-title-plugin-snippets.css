@@ -1,0 +1,23 @@
+/* Better Codeblock and Embedded Code Title Plugin customized */
+
+.obsidian-embedded-code-title__code-block-title .langName {
+    line-height: 24px !important;
+}
+
+.obsidian-embedded-code-title__code-block-title+code[class*=language-] {
+    font-size: .84em !important;
+}
+
+.obsidian-embedded-code-title__code-block-title {
+    min-height: 1px !important;
+    height: 30px !important;
+    line-height: 24px !important;
+}
+
+.theme-dark .obsidian-embedded-code-title__code-block-title {
+    color: var(--text-normal) !important;
+}
+
+.theme-light .obsidian-embedded-code-title__code-block-title {
+    color: var(--text-normal) !important;
+}

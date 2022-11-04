@@ -1,0 +1,11 @@
+/* Outline Panel - Move collapse-icon to right side  */
+
+div.outline .tree-item-inner {
+  margin-right: 15px !important;
+  word-break: break-all;
+}
+
+div.outline div.collapse-icon {
+  position: absolute !important;
+  right: 15px !important;
+}

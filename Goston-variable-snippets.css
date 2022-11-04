@@ -1,0 +1,20 @@
+/* Variable define - need for the other snippets */
+
+.theme-dark .markdown-source-view, .theme-dark .markdown-rendered {
+  --text-normal: #c7c7c7;
+  --text-faint: #888;
+  --text-muted: #888;
+  --heading-formatting: #888;
+  --list-marker-color: #888;
+  /* --link-external-color: #D08770; */
+  --link-external-color: #e48264;
+  --text-a-color: #00aaff;
+  /* --text-a-hover-color: #81a1c1; */
+  --text-a-hover-color: #588fc6;
+}
+
+.theme-light .markdown-source-view, .theme-light .markdown-rendered {
+  --link-external-color: #f14e1c;
+  --text-a-color: #00aaff;
+  --text-a-hover-color: #1374d5;
+}

@@ -1,0 +1,9 @@
+/* Editor current line background highlight color */
+
+.theme-dark div.cm-active {
+  background-color: #66779360 !important;
+}
+
+.theme-light div.cm-active {
+  background-color: #66779330 !important;
+}

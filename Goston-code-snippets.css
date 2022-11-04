@@ -1,0 +1,35 @@
+/* Code block and inline code style customized */
+
+.cm-hmd-frontmatter, .frontmatter-container {
+  font-size: .75em !important;
+}
+
+code, .cm-inline-code, .HyperMD-codeblock {
+  font-size: .9em !important;
+}
+
+.markdown-rendered pre code,
+.markdown-source-view.mod-cm6 .cm-line.HyperMD-codeblock,
+.code-block-wrap {
+  font-size: .84em !important;
+}
+
+.markdown-rendered pre .obsidian-embedded-code-title__code-block-title {
+  font-size: .8em !important;
+}
+
+.theme-dark .markdown-rendered code:not([class]),
+.theme-dark .markdown-source-view .cm-inline-code {
+  color: #5fc2f4 !important;
+  background-color: #003b59 !important;
+}
+
+.theme-light .markdown-rendered code {
+  color: #777 !important;
+}
+
+.theme-light .markdown-rendered code:not([class]),
+.theme-light .markdown-source-view .cm-inline-code {
+  color: #0190dc !important;
+  background-color: #ddfaff !important;
+}

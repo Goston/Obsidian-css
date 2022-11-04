@@ -1,0 +1,51 @@
+/* Table width and color customized */
+
+.cm-s-obsidian .HyperMD-table-row-0 {
+  color: var(--text-normal) !important;
+}
+
+.markdown-rendered table {
+  width: 100%;
+}
+
+.markdown-rendered table th {
+  white-space: nowrap !important;
+  font-size: 1em !important;
+  font-weight: bold !important;
+}
+
+.theme-dark .markdown-rendered table th {
+  color: #ffffff !important;
+  background: #424b5b !important;
+}
+
+.theme-dark .markdown-rendered table td,
+.theme-dark .markdown-rendered table th {
+  border-color: #555 !important;
+}
+
+.theme-dark .markdown-rendered table tr:nth-child(even) {
+  background-color: #cccccc40 !important;
+}
+
+.theme-dark .markdown-rendered table tr:hover {
+  background-color: rgba(255, 255, 200, 0.4) !important;
+}
+
+.theme-light .markdown-rendered table th {
+  color: #fff !important;
+  background: #677793 !important;
+}
+
+.theme-light .markdown-rendered table td,
+.theme-light .markdown-rendered table th {
+  border-color: #ccc !important;
+}
+
+.theme-light .markdown-rendered table tr:nth-child(even) {
+  background-color: #cccccc30 !important;
+}
+
+.theme-light .markdown-rendered table tr:hover {
+  background-color: rgb(255, 255, 200) !important;
+}

@@ -1,0 +1,13 @@
+/* Link color customized */
+
+a {
+  color: var(--text-a-color) !important;
+}
+
+a:hover, .cm-hmd-internal-link:hover, .cm-url {
+  color: var(--text-a-hover-color) !important;
+}
+
+.cm-url:hover {
+  color: var(--text-a-color) !important;
+}

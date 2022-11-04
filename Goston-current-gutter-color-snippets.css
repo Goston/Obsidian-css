@@ -1,0 +1,9 @@
+/* Editor current gutter line font color */
+
+.theme-dark div.cm-gutterElement.cm-active {
+  color: #fff !important;
+}
+
+.theme-light div.cm-gutterElement.cm-active {
+  color: #000 !important;
+}

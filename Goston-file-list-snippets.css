@@ -1,0 +1,22 @@
+/* File list color and list item customized */
+
+.nav-file-title {
+  margin-left: 4px !important;
+}
+
+div.nav-file-title::before {
+  content: '-' !important;
+  margin-right: 4px !important;
+}
+
+.theme-dark .nav-file-title.is-active,
+.theme-dark .nav-folder-title.is-active {
+  color: #fff !important;
+  background-color: #424b5b !important;
+}
+
+.theme-light .nav-file-title.is-active,
+.theme-light .nav-folder-title.is-active {
+  color: #fff !important;
+  background-color: #677793 !important;
+}

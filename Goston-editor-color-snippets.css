@@ -1,0 +1,7 @@
+/* Font and background color in source view and reading view */
+
+.theme-dark .markdown-source-view,
+.theme-dark .markdown-rendered {
+  color: var(--text-normal) !important;
+  background: #000 !important;
+}
