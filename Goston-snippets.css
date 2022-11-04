@@ -215,6 +215,13 @@ code, .cm-inline-code, .HyperMD-codeblock {
   color: var(--text-normal) !important;
 }
 
+/* Admonition Plugin */
+
+.theme-dark .markdown-rendered .callout {
+  background-color: rgba(var(--callout-color), 0.25) !important;
+  opacity: 1.0 !important;
+}
+
 /* -------------------------------------- */
 
 .token.comment,
