@@ -80,6 +80,19 @@ div.nav-file-title::before {
   background-color: #677793 !important;
 }
 
+/* Outline Panel */
+
+div.outline .tree-item-inner {
+  margin-right: 15px !important;
+  word-break: break-all;
+}
+
+div.outline div.collapse-icon {
+  float: right !important;
+  position: absolute !important;
+  right: 15px !important;
+}
+
 /* Link */
 
 a {
