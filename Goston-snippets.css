@@ -88,7 +88,6 @@ div.outline .tree-item-inner {
 }
 
 div.outline div.collapse-icon {
-  float: right !important;
   position: absolute !important;
   right: 15px !important;
 }
