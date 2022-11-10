@@ -10,7 +10,7 @@
 
 .obsidian-embedded-code-title__code-block-title {
     min-height: 1px !important;
-    height: 30px !important;
+    height: 29px !important;
     line-height: 24px !important;
 }
 
@@ -20,4 +20,9 @@
 
 .theme-light .obsidian-embedded-code-title__code-block-title {
     color: var(--text-normal) !important;
+}
+
+.markdown-rendered button.copy-code-button {
+    margin-top: 30px !important;
+    padding: 6px 8px;
 }
