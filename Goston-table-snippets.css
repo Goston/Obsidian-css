@@ -10,7 +10,7 @@
 
 .markdown-rendered table th {
   white-space: nowrap !important;
-  font-size: 1em !important;
+  font-size: 1.1em !important;
   font-weight: bold !important;
 }
 
@@ -29,7 +29,7 @@
 }
 
 .theme-dark .markdown-rendered table tr:hover {
-  background-color: rgba(255, 255, 200, 0.4) !important;
+  background-color: rgba(0, 213, 255, 0.35) !important;
 }
 
 .theme-light .markdown-rendered table th {
@@ -47,5 +47,5 @@
 }
 
 .theme-light .markdown-rendered table tr:hover {
-  background-color: rgb(255, 255, 200) !important;
+  background-color: rgb(199, 246, 255) !important;
 }
