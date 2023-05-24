@@ -1,7 +1,7 @@
 /* File list color and list item customized */
 
 .nav-file-title {
-  margin-left: 4px !important;
+  /* margin-left: 4px !important; */
 }
 
 div.nav-file-title::before {
