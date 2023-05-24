@@ -12,6 +12,7 @@ code, .cm-inline-code, .HyperMD-codeblock {
 .markdown-source-view.mod-cm6 .cm-line.HyperMD-codeblock,
 .code-block-wrap {
   font-size: .84em !important;
+  white-space: pre !important;
 }
 
 .markdown-rendered pre .obsidian-embedded-code-title__code-block-title {
